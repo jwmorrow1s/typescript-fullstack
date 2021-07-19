@@ -1,0 +1,10 @@
+{
+    "extends": "./tsconfig.json",
+    "include": ["src/server"],
+    "exclude": ["src/ui"],
+    "compileOnSave": true,
+    "compilerOptions": {
+        "noEmit": false,
+        "outDir": "./lib"
+    }
+}
